@@ -3,8 +3,8 @@
     "name": "san_fran",
     "lat": 37.7955,
     "lng": -122.3937,
-    "resolution": 10,
-    "k": 15,
+    "resolution": 5,
+    "k": 50,
     "buffer_rad_m": 10e3
     },
 

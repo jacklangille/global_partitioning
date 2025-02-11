@@ -1,13 +1,13 @@
 from include.hab_study import HabStudy
 import json
+import random
 
 if __name__ == "__main__":
 
     with open("studies/hab_studies.json", "r") as f:
         studies = json.load(f)
 
-    test_lat = 37.80
-    test_lng = -122.40
+    n_trials = 10
 
     for study in studies:
         new_study = HabStudy(
@@ -19,14 +19,15 @@ if __name__ == "__main__":
             study["name"],
         )
 
-        cell_found = new_study.check_coord(test_lat, test_lng)
+        print("-" * 40 + study["name"] + "-" * 40)
+        for i in range(n_trials):
+            test_lat = random.randrange(36, 40, 1)
+            test_lng = random.randrange(-120, -125, -1)
+            cell_found = new_study.check_coord(test_lat, test_lng)
 
-        if cell_found:
             print(
-                f"Coordinate ({test_lat}, {test_lng}) is in cluster cell {cell_found}."
+                f"({test_lat}, {test_lng}) {'in ' + str(cell_found) if cell_found else 'NOT in the cluster'}"
             )
-        else:
-            print(f"Coordinate ({test_lat}, {test_lng}) is NOT in the cluster.")
 
-        new_study.create_map()
-        new_study.save_cells()
+        # new_study.create_map()
+        # new_study.save_cells()
