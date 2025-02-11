@@ -12,4 +12,9 @@ wheels/
 # UV
 .python-version
 uv.lock
+
+# VSCode
 .DS_Store
+
+# Maps
+/output/maps
