@@ -1,0 +1,108 @@
+<eml:eml xmlns:eml="https://eml.ecoinformatics.org/eml-2.2.0"
+         xmlns:dc="http://purl.org/dc/terms/"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="https://eml.ecoinformatics.org/eml-2.2.0 https://rs.gbif.org/schema/eml-gbif-profile/1.3/eml.xsd"
+         packageId="90dbe62a-5470-4aa9-b285-059e95b49936/v3.32" system="http://gbif.org" scope="system"
+         xml:lang="eng">
+    <dataset>
+        <alternateIdentifier>doi:10.25607/0wdrmq</alternateIdentifier>
+        <alternateIdentifier>90dbe62a-5470-4aa9-b285-059e95b49936</alternateIdentifier>
+        <alternateIdentifier>https://ipt.iobis.org/hab/resource?r=haedat</alternateIdentifier>
+        <title xml:lang="eng">Harmful Algal Event Database (HAEDAT)</title>
+        <creator>
+            <individualName>
+                <givenName>Pieter</givenName>
+                <surName>Provoost</surName>
+            </individualName>
+            <organizationName>IOC-UNESCO</organizationName>
+            <positionName>Data Manager</positionName>
+            <address>
+                <country>BE</country>
+            </address>
+            <electronicMailAddress>p.provoost@unesco.org</electronicMailAddress>
+            <userId directory="https://orcid.org/">0000-0002-4236-0384</userId>
+        </creator>
+        <creator>
+            <individualName>
+                <givenName>Henrik</givenName>
+                <surName>Enevoldsen</surName>
+            </individualName>
+            <organizationName>IOC-UNESCO</organizationName>
+            <positionName>Programme Manager</positionName>
+            <address>
+                <country>DK</country>
+            </address>
+            <electronicMailAddress>h.enevoldsen@unesco.org</electronicMailAddress>
+        </creator>
+        <metadataProvider>
+            <individualName>
+                <givenName>Pieter</givenName>
+                <surName>Provoost</surName>
+            </individualName>
+            <organizationName>IOC-UNESCO</organizationName>
+            <positionName>Data Manager</positionName>
+            <address>
+                <country>BE</country>
+            </address>
+            <electronicMailAddress>p.provoost@unesco.org</electronicMailAddress>
+            <userId directory="https://orcid.org/">0000-0002-4236-0384</userId>
+        </metadataProvider>
+        <associatedParty>
+            <individualName>
+                <givenName>Pieter</givenName>
+                <surName>Provoost</surName>
+            </individualName>
+            <electronicMailAddress>p.provoost@unesco.org</electronicMailAddress>
+            <role>user</role>
+        </associatedParty>
+        <pubDate>
+            2025-02-10
+        </pubDate>
+        <language>eng</language>
+        <abstract>
+            <para>The Harmful Algal Event Database (HAEDAT) is a component of the Harmful Algal Information system (HAIS) within the International Oceanographic Data and Information Exchange (IODE) of the Intergovernmental Oceanographic Commission (IOC) of UNESCO, and in cooperation with ICES, and PICES. The HAEDAT is a meta database containing records of harmful algal events. HAEDAT contains records from the ICES area (North Atlantic) since 1985, and from the PICES area (North Pacific) since 2000. IOC Regional networks in South America, South Pacific and Asia, and North Africa have recently started contributing.
+
+This instantiation of the HAEDAT database contains all species occurrences associated with harmful algal events, including abundance and toxicity ranges.</para>
+        </abstract>
+        <keywordSet>
+            <keyword>Samplingevent</keyword>
+            <keywordThesaurus>GBIF Dataset Type Vocabulary: http://rs.gbif.org/vocabulary/gbif/dataset_type.xml</keywordThesaurus>
+        </keywordSet>
+        <keywordSet>
+            <keyword>Samplingevent</keyword>
+            <keywordThesaurus>GBIF Dataset Type Vocabulary: http://rs.gbif.org/vocabulary/gbif/dataset_type_2015-07-10.xml</keywordThesaurus>
+        </keywordSet>
+        <intellectualRights>
+            <para>This work is licensed under a <ulink url="http://creativecommons.org/licenses/by/4.0/legalcode"><citetitle>Creative Commons Attribution (CC-BY) 4.0 License</citetitle></ulink>.</para>
+        </intellectualRights>
+        <maintenance>
+            <description>
+                <para></para>
+            </description>
+            <maintenanceUpdateFrequency>unkown</maintenanceUpdateFrequency>
+        </maintenance>
+        <contact>
+            <individualName>
+                <givenName>Pieter</givenName>
+                <surName>Provoost</surName>
+            </individualName>
+            <organizationName>IOC-UNESCO</organizationName>
+            <positionName>Data Manager</positionName>
+            <address>
+                <country>BE</country>
+            </address>
+            <electronicMailAddress>p.provoost@unesco.org</electronicMailAddress>
+            <userId directory="https://orcid.org/">0000-0002-4236-0384</userId>
+        </contact>
+    </dataset>
+    <additionalMetadata>
+        <metadata>
+            <gbif>
+                <dateStamp>2021-06-07T06:18:54.991+02:00</dateStamp>
+                <hierarchyLevel>dataset</hierarchyLevel>
+                <citation identifier="http://doi.org/10.25607/0wdrmq">IOC-UNESCO. The Harmful Algal Event Database (HAEDAT). Accessed via https://obis.org.</citation>
+                <dc:replaces>90dbe62a-5470-4aa9-b285-059e95b49936/v3.32.xml</dc:replaces>
+            </gbif>
+        </metadata>
+    </additionalMetadata>
+</eml:eml>
